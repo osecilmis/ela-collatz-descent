@@ -45,3 +45,16 @@ It does not replace formal proof.
 Please cite the Zenodo DOI when referencing this work:
 
 DOI: 10.5281/zenodo.20785851
+
+## Paper
+
+The accompanying technical paper is available here:
+
+[ELA Verifiable Certificate Engine v1.3.1](./ELA_Verifiable_Certificate_Engine_for_Collatz_Type_Descent_Tracing_v1_3_1.pdf)
+
+## How to Run
+
+Run the core engine with default benchmark inputs:
+
+```bash
+python ela_core.py

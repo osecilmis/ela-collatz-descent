@@ -6,6 +6,12 @@ This script runs the ELA finite descent certificate engine
 on a small set of known odd inputs.
 """
 
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
 from ela_core import generate_certificate, verify_certificate
 
 
